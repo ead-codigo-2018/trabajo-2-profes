@@ -1,0 +1,21 @@
+html,
+body {
+    min-height: 200vh;
+}
+.contenedor-relativo {
+    width: 60px;
+    height: 40px;
+    background: red;
+    margin: 0 auto;
+    position: fixed;
+}
+.elemento-absoluto {
+    display: none;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
